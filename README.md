@@ -26,8 +26,8 @@ import { EveButton } from "elwins-test-web-components-vue";
 
 Use it in your template as any Vue component:
 
-```html
-<eve-button href="https://elwinvaneede.com"></eve-button>
+```jsx
+<EveButton href="https://elwinvaneede.com"></EveButton>
 ```
 
 ## How to release a new version
