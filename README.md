@@ -21,7 +21,7 @@ yarn add elwins-test-web-components-vue
 Import the component(s) you want to use:
 
 ```js
-import { EveButton } from "elwins-test-web-components-react";
+import { EveButton } from "elwins-test-web-components-vue";
 ```
 
 Use it in your template as any Vue component:
