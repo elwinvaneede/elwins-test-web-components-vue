@@ -1,13 +1,13 @@
 /* eslint-disable */
 /* tslint:disable */
 /* auto-generated vue proxies */
-import Vue from 'vue';
-import { createCommonRender } from './vue-component-lib/utils';
-const customElementTags = [
-    'eve-button',
-    'eve-introduction',
+import Vue from "vue";
+import { createCommonRender } from "./vue-component-lib/utils";
+const customElementTags = ["eve-button", "eve-introduction"];
+Vue.config.ignoredElements = [
+    ...Vue.config.ignoredElements,
+    ...customElementTags,
 ];
-Vue.config.ignoredElements = [...Vue.config.ignoredElements, ...customElementTags];
 export const EveButton = /*@__PURE__*/ Vue.extend({
     props: {
         fill: {},
@@ -15,7 +15,7 @@ export const EveButton = /*@__PURE__*/ Vue.extend({
         target: {},
         rel: {},
     },
-    render: createCommonRender('eve-button', []),
+    render: createCommonRender("eve-button", []),
 });
 export const EveIntroduction = /*@__PURE__*/ Vue.extend({
     props: {
@@ -23,6 +23,6 @@ export const EveIntroduction = /*@__PURE__*/ Vue.extend({
         middle: {},
         last: {},
     },
-    render: createCommonRender('eve-introduction', []),
+    render: createCommonRender("eve-introduction", []),
 });
 //# sourceMappingURL=components.js.map

@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from "vue";
 export declare const EveButton: import("vue/types/vue").ExtendedVue<Vue, unknown, unknown, unknown, {
     fill: "outline" | "solid";
     href: string;

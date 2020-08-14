@@ -2,8 +2,9 @@ export const createCommonRender = (tagName, eventNames = []) => function (create
     const vueElement = this;
     const allListeners = eventNames.reduce((listeners, eventName) => {
         return Object.assign(Object.assign({}, listeners), { [eventName]: (event) => {
+                var _a;
                 let emittedValue = event.detail;
-                if (event.detail.value) {
+                if ((_a = event.detail) === null || _a === void 0 ? void 0 : _a.value) {
                     emittedValue = event.detail.value;
                 }
                 vueElement.$emit(eventName, emittedValue);
