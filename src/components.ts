@@ -2,16 +2,16 @@
 /* tslint:disable */
 /* auto-generated vue proxies */
 import Vue, { PropOptions } from 'vue';
-import { createCommonRender } from './vue-component-lib/utils';
+import { createCommonRender, createCommonMethod } from './vue-component-lib/utils';
 
-import { Components } from 'elwins-test-web-components';
+import type { Components } from 'elwins-test-web-components';
 
 
 
 
 const customElementTags: string[] = [
-  'eve-button',
-  'eve-introduction',
+ 'eve-button',
+ 'eve-introduction',
 ];
 Vue.config.ignoredElements = [...Vue.config.ignoredElements, ...customElementTags];
 
