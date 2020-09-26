@@ -3,6 +3,8 @@
 /* auto-generated vue proxies */
 import Vue from "vue";
 import { createCommonRender } from "./vue-component-lib/utils";
+import { applyPolyfills, defineCustomElements, } from "elwins-test-web-components/loader";
+applyPolyfills().then(() => defineCustomElements());
 const customElementTags = ["eve-button", "eve-introduction"];
 Vue.config.ignoredElements = [
     ...Vue.config.ignoredElements,
